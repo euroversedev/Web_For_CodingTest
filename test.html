@@ -1,27 +1,50 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-        <meta charset = "utf-8">
-        <title></title>
-        
         <style>
-            p {
-                color:coral;
-                background-color: yellow;
+            table, tr, td{
+                border:1px solid blue;
+                /* border-collapse: collapse; */
             }
         </style>
-        
     </head>
     
     <body>
-        <p>
-            안녕하세요. 자바스크립트 공부중이에요.
-        </p>
+        <table style="width:300px;">
+            <tr>
+                <td style="background-Color:yellow;">a</td>
+                <td style="background-Color:red;">b</td>
+                <td style="background-Color:blue;">c</td>
+            </tr>
+
+            <tr>
+                <td style="background-Color:navy;">d</td>
+                <td style="background-Color:green;">e</td>
+                <td style="background-Color:#ddd;" rowspan="2">f</td>
+            </tr>
+
+            <tr>
+                <td style="background-Color:black;" colspan="2">g</td>
+            </tr>    
+        </table>
         
-        <input type="button" value="Change Color" onclick="
-        document.querySelector('p').style.color='coral';
-        document.querySelector('p').style.backgroundColor='blue';
-        ">
+        
+        <input type="submit">
+        <button value="Click Me" disabled>
+        <select name="a">
+            
+        </select>
+            
+        <button>
+             g
+            </button>
+            
+            <button value="Click Me" disabled>12d</button>
+                <button value="Click Me" disabled>1d2</button>
+                             
     </body>
+    
+    
     
 </html>
