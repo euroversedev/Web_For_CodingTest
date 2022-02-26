@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Hi, euro</title>
+
+        <style>
+            .container {
+                background: aliceblue;
+                border: 2px solid skyblue;
+                border-radius: 8px;
+                width: 500px;
+                height: 500px;
+                display: grid;
+                grid: repeat(3, 100px) / repeat(3, 100px);
+                grid-gap: 8px;
+                /* 아래의 값 들을 조합하여 직접 눈으로 살펴 봅시다. */
+                align-content: stretch;
+                justify-content: stretch;
+                align-items: end;
+                justify-items: end;
+            }
+
+            .item {
+                width: 50px;
+                height: 50px;
+                background: #fff;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+                border-radius: 8px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+        </div>
+    </body>
+</html>
